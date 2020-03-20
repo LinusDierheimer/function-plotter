@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/LinusDierheimer/function-plotter#readme",
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.15.0",
+    "mathjs": "^6.6.1"
   },
   "devDependencies": {
     "webpack": "^4.42.0",

@@ -1,4 +1,9 @@
 const functionPlotter = require("../index.js");
 functionPlotter({
-    test: "HUHU"
+    target: "#test",
+    data: [
+        {
+            fn: "-2x^3+6x^2"
+        }
+    ]
 });
