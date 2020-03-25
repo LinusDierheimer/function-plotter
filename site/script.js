@@ -3,7 +3,7 @@ functionPlotter({
     target: "#test",
     data: [
         {
-            fn: "-2x^3+6x^2"
+            fn: "x * x"
         }
     ]
 });
