@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "site:build": "cd site/ && webpack --config webpack.config.js"
+    "site:dev": "cd site/ && webpack --config webpack.config.js --mode development",
+    "site:build": "cd site/ && webpack --config webpack.config.js --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
     "mathjs": "^6.6.1"
   },
   "devDependencies": {
-    "webpack": "^4.42.0",
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }
 }
