@@ -1,6 +1,6 @@
 {
   "name": "function-plotter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "js function plotter",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,9 @@
   "devDependencies": {
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  }
+  },
+  "files": [
+    "/*",
+    "!/docs/"
+  ]
 }
