@@ -4,6 +4,9 @@ functionPlotter({
     data: [
         {
             fn: "x * x"
+        },
+        {
+            fn: "1 / x"
         }
     ]
 });
